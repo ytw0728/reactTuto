@@ -1,0 +1,15 @@
+{
+  "name": "ytw",
+  "version": "0.0.1",
+  "description": "testPlace",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "ytw",
+  "license": "ISC"
+}

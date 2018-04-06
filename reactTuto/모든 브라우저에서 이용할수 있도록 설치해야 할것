@@ -1,0 +1,28 @@
+[ 이것을 공부하는 당시까지 일부 브라우저 에서만 지원하던 기능들을 이용가능하게 만들어줌 ]
+
+
+객체 생성 Object.assign 메서드 / array.prototype.find와 array.prototype.findIndex 지원하게 하기
+설치 - npm install --save babel-polyfill
+추가 - import 'babel-polyfill'
+
+
+웹요청 XMLHttpRequest 대체 fetch
+설치 - npm install --save whatwg-fetch
+추가 - import 'whatwg-fetch'
+
+
+리액트 애드온 패키지, 불변성 도우미( 중첩 등에서 ) update함수
+설치 - npm install .--save react-addons-update
+추가 - import update from 'react-addons-update'
+
+
+ReactCssTransitionGroup 애니메이션에 포함할 컴포는터 래핑 컴포넌트 수명주기와 연관된 특정한 시점에 CSS 애니메이션 트랜지션 트리거
+설치 - npm install --save react-addons-css-transition-group
+추가 - import ReactCSSTransitionGroup from 'react-addons-css-transition-group'	
+
+
+드래그 앤 드롭 라이브러리 React DnD2
+설치 - npm install --save react-dnd@2.x.x react-dnd-html5-backend@1.x.x
+추가 - import { DragDropContext } from 'react-dnd'
+	   import HTML5Backend from 'react-dnd-html5-backend'
+
